@@ -6,10 +6,20 @@
     "test": "sst bind vitest",
     "typecheck": "tsc -noEmit"
   },
+  "dependencies": {
+    "@aws-sdk/util-dynamodb": "^3.338.0",
+    "@ipld/dag-ucan": "^3.3.2",
+    "@spade-proxy/core": "*",
+    "@ucanto/client": "^8.0.0",
+    "@ucanto/server": "^8.0.0",
+    "@ucanto/transport": "^8.0.0",
+    "multiformats": "^11.0.2"
+  },
   "devDependencies": {
     "@sentry/serverless": "7.52.1",
     "@types/aws-lambda": "^8.10.115",
     "@types/node": "^18.16.3",
+    "@ucanto/core": "^8.0.0",
     "vitest": "^0.31.0",
     "sst": "^2.8.3",
     "typescript": "^5.0.4"
